@@ -4,7 +4,7 @@ var defaultMarker, thingsMarker, placesMarker, citationMarker, scienceMarker, pl
 $(document).ready(function(){
 	if ( $( "#map" ).length ) {	
 		// create a map in the "map" div, set the view to a given place and zoom
-		map = L.map('map').setView([35,15], 2);
+		map = L.map('map').setView([33.7490, -84.3880], 12);
 		
 		// add an OpenStreetMap tile layer
 		L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
